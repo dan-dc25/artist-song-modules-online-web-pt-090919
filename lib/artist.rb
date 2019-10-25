@@ -1,6 +1,6 @@
 require 'pry'
 
-extend Memorable
+extend Memorable::ClassMethods
 
 class Artist
   attr_accessor :name
