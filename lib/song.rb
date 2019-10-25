@@ -1,6 +1,6 @@
 require 'pry'
 
-extend
+extend Memorable
 
 class Song
   attr_accessor :name
